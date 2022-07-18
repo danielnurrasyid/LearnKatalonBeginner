@@ -29,7 +29,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Us
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_Password_Submit'))
 
-WebUI.verifyTextPresent('Welcome', false // true itu untuk aktifin reguler expression jadi bisa stringnya Welcome*
+WebUI.verifyTextPresent('Welcome8', false // true itu untuk aktifin reguler expression jadi bisa stringnya Welcome*
     )
 
 WebUI.closeBrowser()
