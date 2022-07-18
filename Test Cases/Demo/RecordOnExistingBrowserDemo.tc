@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>testpush</name>
+   <name>RecordOnExistingBrowserDemo</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b5ab4636-ca52-4433-82a1-8e6cb2a67bf6</testCaseGuid>
+   <testCaseGuid>cb4be641-ed40-4668-918d-c800b1bff102</testCaseGuid>
 </TestCaseEntity>

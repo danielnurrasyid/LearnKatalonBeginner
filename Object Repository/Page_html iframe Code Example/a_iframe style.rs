@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_iframe style</name>
+   <tag></tag>
+   <elementGuidId>4b8b89df-30c9-4234-bf2f-a61b0c23c29a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='answer_box1_holder']/ul[5]/li[11]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d47d961b-f55f-40ba-84db-433611dfc57e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/code-examples/html/iframe+style</value>
+      <webElementGuid>aecfa372-7bac-4bc1-8b19-15a00dcedeb6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>iframe style</value>
+      <webElementGuid>bc76398c-2be5-4be7-b3ff-07335670f5f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;answer_box1_holder&quot;)/ul[@class=&quot;one-third&quot;]/li[11]/a[1]</value>
+      <webElementGuid>323578b1-3431-45ea-8307-40814e72796c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='answer_box1_holder']/ul[5]/li[11]/a</value>
+      <webElementGuid>b0d9d902-a3e3-46a4-b12f-87a0e7667636</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'iframe style')])[10]</value>
+      <webElementGuid>da9c7291-7654-4845-a42c-5aeb4c09b767</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='iframe no border'])[1]/following::a[1]</value>
+      <webElementGuid>7ab49cd9-cb6e-4afe-a842-cca22c5a8c86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='get iframe content javascript'])[1]/following::a[2]</value>
+      <webElementGuid>a2955cd9-3d69-4033-a716-2794e3e78938</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='iframe syntax'])[1]/preceding::a[1]</value>
+      <webElementGuid>c65d1dee-66a7-4ccb-a340-6de62519791a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='w3school iframe'])[1]/preceding::a[2]</value>
+      <webElementGuid>cd7a9634-65dd-4090-a8a4-147e32bb5f5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='iframe style']/parent::*</value>
+      <webElementGuid>3ff6e72e-3183-4bdf-9482-290d57b13553</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/code-examples/html/iframe+style')])[6]</value>
+      <webElementGuid>f0f50873-997a-4509-b67a-b8ccf47b7daa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/ul[5]/li[11]/a</value>
+      <webElementGuid>ce9f7240-1cbf-46d5-a061-b2a940adf7d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/code-examples/html/iframe+style' and (text() = 'iframe style' or . = 'iframe style')]</value>
+      <webElementGuid>ef4dbe31-35e9-4592-bfd6-110319699b6c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
