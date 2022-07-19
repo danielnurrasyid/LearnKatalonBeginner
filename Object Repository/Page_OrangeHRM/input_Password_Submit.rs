@@ -6,12 +6,12 @@
    <elementGuidId>8d9b67ba-57e2-4b87-9f21-06173bf9a523</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='btnLogin']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#btnLogin</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='btnLogin']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>41e08d6f-addd-4fb8-98f1-18d008fd85a6</webElementGuid>
+      <webElementGuid>140cdd6b-f673-4524-b824-00cd45c9c68b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,10 +30,122 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>6db3c670-fee1-42a3-ba98-59e508f3695d</webElementGuid>
+      <webElementGuid>347dec2c-6b00-472d-8378-f666eae31dc9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Submit</value>
+      <webElementGuid>9387bba8-dfe8-412d-9734-be96fdc28837</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button hover</value>
+      <webElementGuid>1258f4d1-d9a5-4c10-8460-fadbeed83e46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btnLogin</value>
+      <webElementGuid>660d9c7d-997a-48dc-bd3a-244ebb844aa4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>LOGIN</value>
+      <webElementGuid>8970a57c-31b3-4793-8fb2-83fe7e32dc11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;btnLogin&quot;)</value>
+      <webElementGuid>24fa298b-d063-4642-b114-3a3cff61e8cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>94bd5cb6-bcd6-4d9d-b35e-92ecc4d43f46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>62a83dde-3bd8-49f9-85c5-9ca6b4b7ac54</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Submit</value>
+      <webElementGuid>e9ff7ebc-e0d8-4690-b912-ce357f93ca6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button hover</value>
+      <webElementGuid>b9e1e893-ae40-4cfc-82ef-f1c090e3a1f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btnLogin</value>
+      <webElementGuid>c65d2659-67b5-4ed4-8815-8d5d3a029520</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>LOGIN</value>
+      <webElementGuid>ee725891-6ab9-45e2-9747-aac4c5a3afec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;btnLogin&quot;)</value>
+      <webElementGuid>934776e8-8e9b-4050-bfaf-15ab797e957a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>41e08d6f-addd-4fb8-98f1-18d008fd85a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>6db3c670-fee1-42a3-ba98-59e508f3695d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -49,7 +161,7 @@
       <webElementGuid>04975357-c83a-4adb-bcf2-437e60b8b925</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -246,7 +358,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='btnLogin']</value>
-      <webElementGuid>ac9c604e-d001-4b31-8cef-50154a5d9bc5</webElementGuid>
+      <webElementGuid>317f0081-4ab9-411d-af9b-b1af39407a3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -254,7 +366,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='divLoginButton']/input</value>
-      <webElementGuid>26906342-d757-4b0d-ad4e-42ae66504d47</webElementGuid>
+      <webElementGuid>9b22b8a5-8560-4222-a4b2-8e0ab4981460</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -262,7 +374,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/input</value>
-      <webElementGuid>2c4a747c-0ccc-4532-935d-4699ebe4ba5b</webElementGuid>
+      <webElementGuid>2a8ad710-71b4-4453-abd9-31819e606e2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -270,6 +382,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'submit' and @name = 'Submit' and @id = 'btnLogin']</value>
-      <webElementGuid>17b03ee0-acdc-4b7e-bdd3-af2e3d9a901f</webElementGuid>
+      <webElementGuid>e55ce79d-287a-451d-88b3-43997226db0c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

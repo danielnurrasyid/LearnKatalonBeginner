@@ -6,7 +6,8 @@
       "keywordMethods": [
         {
           "name": "hello",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "helloUser",
@@ -24,10 +25,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

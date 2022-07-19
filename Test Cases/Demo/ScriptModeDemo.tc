@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>1bc69df4-5aa0-4f92-97c5-cff95155e911</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>23a261ca-0d92-4e44-a312-36f183d7d0ef</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Admin\r\n'</defaultValue>
+      <description></description>
+      <id>23a261ca-0d92-4e44-a312-36f183d7d0ef</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
 </TestCaseEntity>

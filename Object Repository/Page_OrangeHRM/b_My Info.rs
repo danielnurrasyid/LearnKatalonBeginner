@@ -6,12 +6,12 @@
    <elementGuidId>41bec4a4-d2e1-4fa6-b5fc-bab2e8d64490</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='menu_pim_viewMyDetails']/b</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#menu_pim_viewMyDetails > b</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='menu_pim_viewMyDetails']/b</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,10 +22,34 @@
       <name>tag</name>
       <type>Main</type>
       <value>b</value>
-      <webElementGuid>c79c8796-561a-4551-8d43-0fa86ba71695</webElementGuid>
+      <webElementGuid>00d2b75c-4690-40e3-b240-9461434ec926</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>My Info</value>
+      <webElementGuid>0812888b-e2b2-4467-b6ef-94acfbbb4cde</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menu_pim_viewMyDetails&quot;)/b[1]</value>
+      <webElementGuid>e835aa94-7357-4b3a-a001-e5f83bc077b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>b</value>
+      <webElementGuid>c79c8796-561a-4551-8d43-0fa86ba71695</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -46,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='menu_pim_viewMyDetails']/b</value>
-      <webElementGuid>6af13cbc-88f0-4093-9373-8c4277ff3b7c</webElementGuid>
+      <webElementGuid>bef621b4-2725-4457-9e5c-79928adca150</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Vacancies'])[1]/following::b[1]</value>
-      <webElementGuid>886fe4dc-5e00-423e-943e-45c2da9684e6</webElementGuid>
+      <webElementGuid>a61c1040-4b1d-450e-a04e-91780ab0866f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Candidates'])[1]/following::b[1]</value>
-      <webElementGuid>f5533fcd-6827-4211-9c65-578ba5390d6c</webElementGuid>
+      <webElementGuid>960df97c-d59e-4f63-aa8f-f4f9bd9e5fca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Performance'])[1]/preceding::b[1]</value>
-      <webElementGuid>02f181f7-38c4-4357-b03f-ac7869f38e38</webElementGuid>
+      <webElementGuid>872f495a-2e58-4c4b-9e7f-84d478362ee2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='KPIs'])[1]/preceding::b[2]</value>
-      <webElementGuid>d5e62eb9-e3f8-474c-b87a-b67e2d6b644c</webElementGuid>
+      <webElementGuid>810db74b-2ad1-46d3-90fc-e08efdaa92ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='My Info']/parent::*</value>
-      <webElementGuid>4301ac81-ea14-458b-85ca-22daea228d57</webElementGuid>
+      <webElementGuid>9d8086a4-a791-4679-bf52-06036bd5d870</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[6]/a/b</value>
-      <webElementGuid>2549c638-e918-4e4c-b632-6dc98e9c0884</webElementGuid>
+      <webElementGuid>4b560a28-8046-46a8-9295-7104590a0f88</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//b[(text() = 'My Info' or . = 'My Info')]</value>
-      <webElementGuid>6e294728-f740-42d0-8719-9ba425aebbaf</webElementGuid>
+      <webElementGuid>6df7ff41-ac11-42e9-b324-c56b48155c5e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

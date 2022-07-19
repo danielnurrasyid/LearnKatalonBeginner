@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>f8252c97-3b3f-444b-a9be-ca9a881fe04c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Demo/ManualModeDemo</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -31,5 +31,11 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Demo/ScriptModeDemo</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>23a261ca-0d92-4e44-a312-36f183d7d0ef</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

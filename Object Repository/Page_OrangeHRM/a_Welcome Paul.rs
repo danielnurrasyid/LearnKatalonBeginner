@@ -6,12 +6,12 @@
    <elementGuidId>1206433b-22f4-4b5a-a9a8-220d98f651b5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='welcome']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#welcome</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>c892e5a8-77be-4732-9df6-b0c46a2a6a9b</webElementGuid>
+      <webElementGuid>6d803f0f-c621-4ec8-b296-ff5b187cd353</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,10 +30,106 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>2c40cb82-3857-4098-89d0-8fc9ecae35ae</webElementGuid>
+      <webElementGuid>c8d2f5c7-c4cc-4ac8-95f5-3591a147c5d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>welcome</value>
+      <webElementGuid>63bcc8f6-7177-4d8a-b975-98e3db99a92b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>panelTrigger</value>
+      <webElementGuid>45c55e4f-258e-4255-a883-cd0cb079e47b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Welcome Paul</value>
+      <webElementGuid>c3aff685-f104-4104-b6e2-518e31cd5e96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;welcome&quot;)</value>
+      <webElementGuid>1b7dd4dc-e9f9-4b76-9244-58db477a548f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>fb58a8da-9ec4-45aa-9c94-3ffb8664a639</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>2dde5497-cab3-4651-8c32-c8c24e326793</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>welcome</value>
+      <webElementGuid>295f63d4-cf79-4f91-816d-64797c03dc8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>panelTrigger</value>
+      <webElementGuid>6cf51a18-827f-4e65-9785-373c9b720f89</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Welcome Paul</value>
+      <webElementGuid>cf673b96-45d6-40cf-b4d5-b87b1c670bc3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;welcome&quot;)</value>
+      <webElementGuid>60f4af74-cdf8-4974-8c1f-a41fdc3712a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c892e5a8-77be-4732-9df6-b0c46a2a6a9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>2c40cb82-3857-4098-89d0-8fc9ecae35ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -49,7 +145,7 @@
       <webElementGuid>e1cc3c4c-70ea-4186-8272-c881be4c9e02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -70,7 +166,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='welcome']</value>
-      <webElementGuid>09fdc9be-9f9a-4655-9bb0-2974b4f931a6</webElementGuid>
+      <webElementGuid>fcb5efd1-7635-4a22-9d2b-010148a6db53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +174,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='branding']/a[2]</value>
-      <webElementGuid>8e88c406-e6ba-47da-9a97-f9520e9a5281</webElementGuid>
+      <webElementGuid>251a2321-ce4c-4296-8524-37a7bc91cbcf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +182,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Welcome Paul')]</value>
-      <webElementGuid>eda60db6-342a-4051-97f8-6a3ea3702447</webElementGuid>
+      <webElementGuid>bad62964-79c1-469c-b196-0e91d83fa02d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +190,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No new notifications'])[1]/preceding::a[1]</value>
-      <webElementGuid>7772979b-769a-4bd9-96c3-0fdf194e641c</webElementGuid>
+      <webElementGuid>e7f99949-e45c-49c8-bd74-48b8a78da142</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +198,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Success!'])[1]/preceding::a[1]</value>
-      <webElementGuid>ebce1dc0-ee9c-4b1d-bcf5-67c9ae3dfa0e</webElementGuid>
+      <webElementGuid>5a5bd18c-4ae8-4026-8dd6-37c3fc040b7d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +206,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Welcome Paul']/parent::*</value>
-      <webElementGuid>40e138dc-dddf-4fdc-a4eb-c396fadcb303</webElementGuid>
+      <webElementGuid>2eb9d289-f7b7-4443-b9e6-f9fdebb23183</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +214,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#')]</value>
-      <webElementGuid>c87e670f-cd0e-4300-b050-60c2010ac86c</webElementGuid>
+      <webElementGuid>394706bb-7e73-457b-91d9-e86e3e99cf55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +222,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[2]</value>
-      <webElementGuid>1e36009e-709d-495c-8977-251f6cc5c1e8</webElementGuid>
+      <webElementGuid>47e90c98-6b2a-44e5-b618-045b37a1b871</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +230,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and @id = 'welcome' and (text() = 'Welcome Paul' or . = 'Welcome Paul')]</value>
-      <webElementGuid>3361b43f-082a-428d-9a8d-d6e431c4f75e</webElementGuid>
+      <webElementGuid>097c9bbf-312e-4dd4-a52d-35b5bf39a406</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
