@@ -24,15 +24,15 @@ WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/index.php/auth/lo
 
 WebUI.click(findTestObject('Page_OrangeHRM/form_LOGIN'))
 
-//WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), username) //username variable lokal
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), findTestData('LoginData').getValue(
-        1, 1) // ini akan refer ke kolom 1 row 1
-    )
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), username) //username variable lokal, varibel ini akan di mapping dengan test data di test suite (databinding)
+//WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), findTestData('LoginData').getValue(
+//        1, 1) // ini akan refer ke kolom 1 row 1
+//    ) // kalau cara begini kita tidak bisa ganti ke data yang selanjutnya, maka harus di lakukan data binding untuk mapping test data dengan parameter username dan pasword
 
-//WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_txtPassword'), password) //password variable lokal
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_txtPassword'), findTestData('LoginData').getValue(
-        2, 1) // ini akan refer ke kolom 2 row 1
-    )
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_txtPassword'), password) //password variable lokal, varibel ini akan di mapping dengan test data di test suite (databinding)
+//WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_txtPassword'), findTestData('LoginData').getValue(
+//        2, 1) // ini akan refer ke kolom 2 row 1
+//    )
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_Password_Submit'))
 
