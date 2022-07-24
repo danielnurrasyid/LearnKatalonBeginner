@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/index.php/auth/login')
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/span_Username'))
+WebUI.click(findTestObject('null'))
 
 WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 'Admin')
 

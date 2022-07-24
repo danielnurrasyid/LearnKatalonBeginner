@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>DataSQLAWS</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>d4a9d09d-9f19-461e-95e1-6e8327b12fe4</dataFileGUID>
+   <dataSourceUrl>jdbc:mysql://demo-db.cmjxsl89gnfy.us-east-1.rds.amazonaws.com:3306/sys</dataSourceUrl>
+   <driver>DBData</driver>
+   <driverClassName></driverClassName>
+   <isInternalPath>false</isInternalPath>
+   <password>YWRtaW4xMjM=</password>
+   <query>select * from sys.Student</query>
+   <secureUserAccount>true</secureUserAccount>
+   <sheetName></sheetName>
+   <user>admin</user>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

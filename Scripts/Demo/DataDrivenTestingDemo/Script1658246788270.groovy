@@ -14,8 +14,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import com.thoughtworks.selenium.webdriven.commands.GetValue
-
+import com.thoughtworks.selenium.webdriven.commands.GetValue as GetValue
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
@@ -23,17 +22,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/index.php/auth/login')
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/form_LOGIN Panel                           _b98207'))
+WebUI.click(findTestObject('Page_OrangeHRM/form_LOGIN'))
 
-//WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), username)
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), findTestData("LoginData").getValue(1,1)) // ini akan refer ke kolom 1 row 1
+//WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), username) //username variable lokal
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), findTestData('LoginData').getValue(
+        1, 1) // ini akan refer ke kolom 1 row 1
+    )
 
-//WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_txtPassword'), password)
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_txtPassword'), findTestData("LoginData").getValue(2,1)) // ini akan refer ke kolom 1 row 1
+//WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_txtPassword'), password) //password variable lokal
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_txtPassword'), findTestData('LoginData').getValue(
+        2, 1) // ini akan refer ke kolom 2 row 1
+    )
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_Password_Submit'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Welcome Paul'))
+WebUI.click(findTestObject('Page_OrangeHRM/a_Welcome'))
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/li_Logout'))
 
