@@ -19,19 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.delay(7)
-
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), username //username sebagai variabel local
-    )
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), username) //username sebagai variabel local
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_txtPassword'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_Password_Submit'))
 
-WebUI.verifyTextPresent('Welcome', false // true itu untuk aktifin reguler expression jadi bisa stringnya Welcome*
-    )
+WebUI.verifyTextPresent('Welcome', false) // true itu untuk aktifin reguler expression jadi bisa stringnya Welcome*
 
 WebUI.closeBrowser()
 
