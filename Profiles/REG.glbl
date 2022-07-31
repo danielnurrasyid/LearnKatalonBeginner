@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Admin'</initValue>
+      <initValue>'RegresionAdmin'</initValue>
       <name>USERNAME</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
