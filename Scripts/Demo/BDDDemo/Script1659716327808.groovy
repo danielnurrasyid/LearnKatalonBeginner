@@ -17,12 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'MyKeywords.hello'()
+not_run: CucumberKW.runFeatureFile('Include/features/LoginBDD.feature')
 
-CustomKeywords.'MyKeywords.helloUser'('danielll')
+not_run: CucumberKW.runFeatureFolder('Include/features')
+
+//'untuk coba running dengan tagging\r\n'
+not_run: CucumberKW.runFeatureFileWithTags('Include/features/LoginBDD.feature', '@invalid', '@smoke')
 
 
-MyKeywords keyCustom = new MyKeywords()
-
-keyCustom.haloNama("andi")
+//running menggunakan cucumber runer
+CucumberKW.runWithCucumberRunner(CucumberRunner.class)
 

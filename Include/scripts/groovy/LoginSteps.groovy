@@ -31,10 +31,17 @@ public class LoginSteps {
 		WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
 	}
 	
-	@When("user enters username and password")
-	public void user_enters_username_and_password() {
-		WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), "Admin")
-		WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_txtPassword'), "admin123")
+//	@When("user enters username and password")
+//	public void user_enters_username_and_password() {
+//		WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), "Admin")
+//		WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_txtPassword'), "admin123")
+//	}
+	
+	//contoh parametarize .* bisa menyamakan apapun (regex)
+	@When("user enters (.*) and (.*)")
+	public void user_enters_username_and_password(String username, String password) {
+		WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), username)
+		WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_txtPassword'), password)
 	}
 	
 	@And("clicks on login button")

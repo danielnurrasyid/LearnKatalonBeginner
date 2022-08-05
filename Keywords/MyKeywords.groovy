@@ -19,17 +19,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class MyKeywords {
-	
+
 	//groovy
-	
+
 	@Keyword
 	def hello() {
 		println "hello"
-		
+
 	}
-	
+
 	@Keyword
 	def helloUser(String user) {
 		println "helo " + user
+	}
+	
+	String nama;
+	
+	def haloNama(nama)
+	{
+		println "saya" + nama
 	}
 }
