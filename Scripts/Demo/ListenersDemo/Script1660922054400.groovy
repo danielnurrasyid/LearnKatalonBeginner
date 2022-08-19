@@ -17,17 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
-
-WebUI.setText(findTestObject('Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 'Admin')
-
-WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Username_txtPassword'), 'hUKwJTbofgPU9eVlw/CnDQ==')
-
-WebUI.click(findTestObject('Page_OrangeHRM/input_Password_Submit'))
-
-WebUI.verifyTextPresent('Welcome123', false, FailureHandling.OPTIONAL)
-
-WebUI.closeBrowser()
-
+println("im inside test case\n ")

@@ -32,9 +32,9 @@ public class MyKeywords {
 	def helloUser(String user) {
 		println "helo " + user
 	}
-	
+
 	String nama;
-	
+
 	def haloNama(nama)
 	{
 		println "saya" + nama
