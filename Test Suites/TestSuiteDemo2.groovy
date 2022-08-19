@@ -34,7 +34,7 @@ import com.kms.katalon.core.annotation.TearDownTestCase
 @SetUp(skipped = false) // Please change skipped to be false to activate this method.
 def setUp() {
 	// Put your code here.
-	println ("\n Im inside Suite setup ")
+	println ("\n Im inside Suite setups ")
 }
 
 /**

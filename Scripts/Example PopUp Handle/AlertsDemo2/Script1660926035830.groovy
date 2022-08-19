@@ -27,7 +27,7 @@ WebUI.delay(2)
 
 WebUI.dismissAlert()
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.verifyTextPresent('You clicked: Cancel', false)
 

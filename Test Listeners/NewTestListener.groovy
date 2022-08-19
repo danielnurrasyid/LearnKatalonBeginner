@@ -44,7 +44,7 @@ class NewTestListener {
 	
 	//@AfterTestSuite
 	def afterSuite(){
-		println("im inside after Suite\n ")
+		println("im inside after Suitse\n ")
 	}
 	
 }

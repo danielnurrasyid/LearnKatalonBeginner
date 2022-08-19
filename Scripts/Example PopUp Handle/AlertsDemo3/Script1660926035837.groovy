@@ -31,7 +31,7 @@ WebUI.delay(2)
 
 WebUI.acceptAlert()
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.verifyTextPresent('You entered: alert', false)
 
