@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_About Katalon</name>
+   <tag></tag>
+   <elementGuidId>d7af8da5-6e83-4304-9e95-e6cb9bf8c131</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='hs_cos_wrapper_navigation-primary']/nav/ul/li[4]/ul/li/ul/li/a/div/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.no-submenu.menu-item.About.Katalon > a.menu-link > div.item_company > div.include_icon_title > div.description_item_company > div.title_item_company</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>eca6736f-e391-46f5-b9b8-141efb250284</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>title_item_company</value>
+      <webElementGuid>863f2f9e-7b9b-41fd-bbd6-96a146311e79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>About Katalon</value>
+      <webElementGuid>88fd5437-d984-4816-b45a-7f537c544ee1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;hs_cos_wrapper_navigation-primary&quot;)/nav[@class=&quot;navigation-primary&quot;]/ul[@class=&quot;submenu level-1&quot;]/li[@class=&quot;has-submenu menu-item Company&quot;]/ul[@class=&quot;submenu level-2&quot;]/li[@class=&quot;has-submenu menu-item About&quot;]/ul[@class=&quot;submenu level-3&quot;]/li[@class=&quot;no-submenu menu-item About Katalon&quot;]/a[@class=&quot;menu-link&quot;]/div[@class=&quot;item_company&quot;]/div[@class=&quot;include_icon_title&quot;]/div[@class=&quot;description_item_company&quot;]/div[@class=&quot;title_item_company&quot;]</value>
+      <webElementGuid>3a927ed3-3bd1-4427-b8e0-7c116866f1a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e91fd17e-671f-44e0-8609-9fe7f249a7c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>title_item_company</value>
+      <webElementGuid>49034f72-3667-4e12-8210-a04fa57dff59</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>About Katalon</value>
+      <webElementGuid>095426ec-e7ac-4f50-a5bb-93c03eaa33e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;hs_cos_wrapper_navigation-primary&quot;)/nav[@class=&quot;navigation-primary&quot;]/ul[@class=&quot;submenu level-1&quot;]/li[@class=&quot;has-submenu menu-item Company&quot;]/ul[@class=&quot;submenu level-2&quot;]/li[@class=&quot;has-submenu menu-item About&quot;]/ul[@class=&quot;submenu level-3&quot;]/li[@class=&quot;no-submenu menu-item About Katalon&quot;]/a[@class=&quot;menu-link&quot;]/div[@class=&quot;item_company&quot;]/div[@class=&quot;include_icon_title&quot;]/div[@class=&quot;description_item_company&quot;]/div[@class=&quot;title_item_company&quot;]</value>
+      <webElementGuid>a7f04a89-90ee-474c-b556-414aaa32418a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='hs_cos_wrapper_navigation-primary']/nav/ul/li[4]/ul/li/ul/li/a/div/div/div[2]/div</value>
+      <webElementGuid>7bbaa88c-28a0-495e-a2f3-e0406a0e7263</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Webinars'])[1]/following::div[5]</value>
+      <webElementGuid>66c166af-f1d1-460b-b439-dddccb8d7cfe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blog'])[1]/following::div[10]</value>
+      <webElementGuid>0e3a5937-b902-47c5-b109-7ba0d59f2512</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Stories'])[1]/preceding::div[2]</value>
+      <webElementGuid>8ae6a080-d4a4-46f8-8e61-d347c8f73342</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Partners'])[1]/preceding::div[7]</value>
+      <webElementGuid>ca20e1e6-8db4-4715-88ac-34a9198c99f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='About Katalon']/parent::*</value>
+      <webElementGuid>c78dd204-8d44-408a-8ff3-00e38c8d4d06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/ul/li/ul/li/a/div/div/div[2]/div</value>
+      <webElementGuid>c2d757d5-0ba0-4e48-934a-689c9bd04f9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'About Katalon' or . = 'About Katalon')]</value>
+      <webElementGuid>70a17159-2ebe-47ca-a7cb-c656d8c853fd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -19,17 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
+WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Page_OrangeHRM/input_Username_username'), username //username sebagai variabel local
-    )
+WebUI.navigateToUrl('https://katalon.com/')
 
-WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.waitForPageLoad(5)
 
-WebUI.click(findTestObject('Page_OrangeHRM/button_Login'))
+WebUI.mouseOver(findTestObject('Object Repository/Page_Katalon  Simplify Web, API, Mobile, De_2f1b85/a_Products'))
 
-WebUI.verifyTextPresent('PIM', false // true itu untuk aktifin reguler expression jadi bisa stringnya Welcome*
-    )
+WebUI.click(findTestObject('Object Repository/Page_Katalon  Simplify Web, API, Mobile, De_2f1b85/div_Katalon Studio'))
+
+WebUI.mouseOver(findTestObject('Object Repository/Page_Katalon Studio  Best Codeless Test Aut_befb43/a_Company'))
+
+WebUI.click(findTestObject('Object Repository/Page_Katalon Studio  Best Codeless Test Aut_befb43/div_About Katalon'))
 
 WebUI.closeBrowser()
 
